@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────
+# MCP Marketing Agent — Company Profile
+#
+# Fill this once. Takes 2 minutes.
+# To update, prompt: "Update my profile — [describe the change]"
+# ─────────────────────────────────────────────────────────────
+
+account:
+  name: "Your Company Name"
+  mmp: adjust
+
+business:
+  # What types of apps does your company primarily build?
+  verticals:
+    - gaming           # Add or remove from the valid list below
+
+  # How do your apps typically make money?
+  # The agent uses this to detect revenue anomalies across all apps.
+  monetization:
+    - IAA              # In-app advertising
+    # - IAP            # In-app purchases
+    # - subscription   # Recurring subscription
+    # - none           # No revenue tracked in MMP (e.g. finance, banking)
+
+  # Optional: any context that helps the agent interpret your data correctly.
+  # Use this for exceptions, known quirks, or portfolio notes.
+  notes: ""
+  # Examples:
+  #   "One app in the account is a banking app — zero MMP revenue is expected for it."
+  #   "We run both hypercasual (IAA) and midcore (IAP) titles."
+  #   "We are currently soft-launching — low install volumes are expected."
+
+# ─────────────────────────────────────────────────────────────
+# Reference — valid field values
+# ─────────────────────────────────────────────────────────────
+#
+# verticals:
+#   gaming | finance | travel | utilities | lifestyle |
+#   health_fitness | ecommerce | food_delivery | social | entertainment
+#
+# monetization (one or more):
+#   IAA         — in-app advertising (banners, interstitials, rewarded)
+#   IAP         — in-app purchases (one-time or consumable)
+#   subscription — recurring subscription revenue
+#   none        — no revenue expected in MMP
+# ─────────────────────────────────────────────────────────────

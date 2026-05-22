@@ -1,0 +1,23 @@
+{
+  "_readme": [
+    "MCP Marketing Agent — Claude Desktop config template",
+    "Copy the mcpServers block into your claude_desktop_config.json",
+    "Location on Mac:  ~/Library/Application Support/Claude/claude_desktop_config.json",
+    "Location on Win:  %APPDATA%\\Claude\\claude_desktop_config.json",
+    "All credentials must be set as environment variables — never hardcode them here.",
+    "Restart Claude Desktop after editing this file."
+  ],
+
+  "mcpServers": {
+
+    "adjust": {
+      "_comment": "Official Adjust MCP server. See https://github.com/adjust/mcp-server",
+      "command": "npx",
+      "args": ["-y", "@adjustcom/mcp-server"],
+      "env": {
+        "ADJUST_API_TOKEN": "YOUR_ADJUST_API_TOKEN_HERE"
+      }
+    }
+
+  }
+}
