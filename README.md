@@ -1,7 +1,7 @@
 # Mobile App Marketer Agent
 
 An AI agent for mobile app marketers. Ask questions in plain English,
-get professional MMP analysis powered by your own Adjust data — no
+get professional mobile advertisement analysis powered by your own MMP data — no
 dashboards, no SQL, no data team needed.
 
 Built on [Model Context Protocol (MCP)](https://modelcontextprotocol.io).
